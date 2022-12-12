@@ -1,0 +1,32 @@
+.float {
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 5.75rem;
+        height: 5.75rem;
+        bottom: 2.5rem;
+        z-index: 1000;
+        box-shadow: 0.063rem 0.063rem 0.125rem #888;
+        font-size: 2.875rem;
+        color: #FFF;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    #arrowUp {
+
+        right: 2.5rem;
+        border: 1px solid #FFF;
+        background-color: #234E71;
+
+        &:hover {
+            color: rgb(250, 250, 250);
+            background-color: #142a3c;
+        }
+    }
+
+
+
+}
