@@ -16,10 +16,20 @@ header {
         width: 166.44px;
         height: 64.5px;
 
+        @media (max-width: 480px) {
+            width: 133.44px;
+            height: 34.5px;
+
+        }
+
     }
 
     span {
         width: 400px;
+
+        @media (max-width: 480px) {
+            display: none;
+        }
     }
 
     .menu-nav {
@@ -29,11 +39,21 @@ header {
         height: 1rem;
         justify-content: space-evenly;
 
+        @media (max-width: 480px) {
+            width: 210px;
+            align-items: center;
+
+        }
+
         li {
             color: #234E71;
             font-size: 24px;
             list-style: none;
             font-family: 'Inter';
+
+            @media (max-width: 480px) {
+                font-size: 18px;
+            }
 
             a {
                 text-decoration: none;
@@ -48,9 +68,19 @@ header {
         flex-direction: row;
         justify-content: space-evenly;
 
+        @media (max-width: 480px) {
+            width: 70px;
+            height: 5px;
+        }
+
         img {
             width: 16px;
             height: 16px;
+
+            @media (max-width: 480px) {
+                width: 12px;
+                height: 12px;
+            }
         }
     }
 }

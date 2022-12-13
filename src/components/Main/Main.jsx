@@ -46,7 +46,7 @@ function Main() {
                             atendimento rápido e com todo conforto!</p>
                         <h6>EMISSÃO SEM BUROCRACIA, ÁGIL E COM TOTAL
                             SUPORTE, POIS SABEMOS QUE TEMPO É PRECIOSO!</h6>
-                        <a href="">Clique aqui e solicite a partir de R$78,00! </a>
+                        <a href="https://www.fenaconcd.com.br/revendedor/pedido-representante/207#" target="_blank">Clique aqui e solicite a partir de R$78,00! </a>
                     </div>
                     <div className="certificado-img">
                         <img src={cartao} alt="" />
