@@ -86,7 +86,7 @@ function Main() {
                     <p className="p1">Estr. dos Bandeirantes, 470 - Sala 427
                         Ed. Fórum Empresarial - Taquara
                         Rio de Janeiro - RJ</p>
-                    <p className="p2">©2014 Dimiro Soluções em Tecnologia da Informação.</p>
+                    <p className="p2">©2014 Dimiro Soluçõess em Tecnologia da Informação.</p>
                     <p className="p3">E-mail: contato.dimiro.com
                         Tel. e WhatsApp: (21) 3442-9005</p>
                     <div className="social-media-footer">
