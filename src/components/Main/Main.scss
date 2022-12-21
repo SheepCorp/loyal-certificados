@@ -253,7 +253,7 @@ main {
                     text-align: start;
 
                     @media (max-width:480px) {
-                        font-size: 22px;
+                        font-size: 20px;
                         text-align: center;
                     }
                 }
@@ -265,7 +265,7 @@ main {
                     text-align: justify;
 
                     @media (max-width:480px) {
-                        font-size: 14px;
+                        font-size: 12px;
                         text-align: center;
                         width: 250px;
                     }
@@ -278,7 +278,7 @@ main {
                     text-align: justify;
 
                     @media (max-width:480px) {
-                        font-size: 14px;
+                        font-size: 12px;
                         text-align: center;
                     }
                 }
@@ -352,7 +352,7 @@ main {
 
             @media (max-width:480px) {
                 width: 30rem;
-                height: 50rem;
+                height: 450px;
                 align-items: center;
             }
 
@@ -430,7 +430,7 @@ main {
 
             @media (max-width:480px) {
                 flex-direction: column;
-                height: 25rem;
+                height: 500px;
                 align-items: center;
             }
         }
@@ -443,9 +443,10 @@ main {
             justify-content: space-evenly;
 
             @media (max-width:480px) {
-                width: 26rem;
-                height: 25rem;
+                width: 370px;
+                height: 130px;
                 align-items: center;
+                text-align: center;
             }
 
             h3 {
@@ -454,7 +455,7 @@ main {
                 color: #fff;
 
                 @media (max-width:480px) {
-                    font-size: 22px;
+                    font-size: 1.5rem;
                 }
             }
 
@@ -502,6 +503,10 @@ main {
         background-color: #234E71;
         display: flex;
 
+        @media(max-width:480px) {
+            width: 97vw;
+        }
+
 
         .footer-interno {
             display: flex;
@@ -510,6 +515,10 @@ main {
             align-items: center;
             width: 100vw;
             padding: 0 5rem;
+
+            @media(max-width:480px) {
+                width: 97vw;
+            }
         }
 
         .p1 {
