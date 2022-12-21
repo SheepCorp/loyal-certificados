@@ -1,5 +1,5 @@
 main {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 
     .txt-inicial {
@@ -63,7 +63,7 @@ main {
         display: flex;
         flex-direction: row;
         height: 50rem;
-        width: 100vw;
+        width: 99vw;
         justify-content: space-evenly;
         padding-top: 3rem;
 
@@ -324,7 +324,7 @@ main {
     }
 
     .formulario {
-        width: 97vw;
+        width: 99vw;
         background-image: url(../images/Bg3.svg);
         background-color: #234E71;
         height: 55rem;
@@ -476,7 +476,7 @@ main {
 
     .localizacao {
         margin: 3rem 0 0 0;
-        width: 100vw;
+        width: 99vw;
         height: 500px;
         align-items: center;
         text-align: center;
@@ -486,9 +486,10 @@ main {
             height: 30rem;
         }
 
-        img {
+        .maps {
             width: 910px;
             height: 424px;
+            border: none;
 
             @media (max-width:480px) {
                 width: 360px;
@@ -498,7 +499,7 @@ main {
     }
 
     .footer {
-        width: 100vw;
+        width: 99vw;
         height: 151px;
         background-color: #234E71;
         display: flex;

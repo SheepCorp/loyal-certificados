@@ -74,7 +74,12 @@ function Main() {
                 </div>
             </section>
             <section id="endereco" className="localizacao">
-                <img src={maps} alt="" />
+                <iframe className="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.6159063936457!2d-42.9656027!3d-22.9643685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9989784e24a85f%3A0xd56178c42db0bfe2!2sSintetizei!5e0!3m2!1spt-BR!2sbr!4v1671629875272!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    styles="border:0;"
+                ></iframe>
             </section>
             <footer className="footer">
                 <div className="footer-interno">
