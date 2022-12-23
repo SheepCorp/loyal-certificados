@@ -83,17 +83,22 @@ function Main() {
             </section>
             <footer className="footer">
                 <div className="footer-interno">
-                    <p className="p1">Estr. dos Bandeirantes, 470 - Sala 427
-                        Ed. Fórum Empresarial - Taquara
-                        Rio de Janeiro - RJ</p>
-                    <p className="p2">©2014 Dimiro Soluçõess em Tecnologia da Informação.</p>
-                    <p className="p3">E-mail: contato.dimiro.com
-                        Tel. e WhatsApp: (21) 3442-9005</p>
+                    <p className="p1"> Rua Van Lerbergue, 6378, loja 18.
+                        Jardim Atlântico,
+                        Maricá - RJ</p>
+                    <p className="p3">E-mail: contato@loyalcertificados.com.br
+                        Tel. e WhatsApp: (21) 9 8139 - 9142</p>
+                    <p className="p2">©2022 Loyal certificados.</p>
                     <div className="social-media-footer">
                         <a href="https://www.facebook.com/sintetizeioficial" target="_blank"> <img className="facebook" src={facebook} alt="facebook icone" /></a>
                         <a href="https://www.instagram.com/sintetizeioficial/" target="_blank"><img className="instagram" src={instagram} alt="instagram icone" /></a>
                         <a href=""> <img className="linkedin" src={linkedin} alt="linkedin icone" /></a>
                         <a href="https://www.google.com/maps/place/Sintetizei/@-22.9643685,-42.9677914,17z/data=!3m1!4b1!4m5!3m4!1s0x9989784e24a85f:0xd56178c42db0bfe2!8m2!3d-22.9643685!4d-42.9656027" target="_blank"> <img className="mapa" src={mapa} alt="mapa icone" /></a>
+                    </div>
+                    <div>
+                        <a href="http://icp-brasil.acfenacon.com.br/repositorio/ar/ar-loyal-certificados-digitais.html" target="_blank">
+                            <button className="botao-principal">Repositório AC Fenacon</button>
+                        </a>
                     </div>
                 </div>
             </footer>

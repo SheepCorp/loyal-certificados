@@ -506,6 +506,7 @@ main {
 
         @media(max-width:480px) {
             width: 97vw;
+            height: 350px;
         }
 
 
@@ -514,11 +515,11 @@ main {
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
-            width: 100vw;
-            padding: 0 5rem;
+            width: 99vw;
 
             @media(max-width:480px) {
                 width: 97vw;
+                flex-direction: column-reverse;
             }
         }
 
@@ -529,18 +530,19 @@ main {
             color: #f9f9f992;
 
             @media(max-width: 480px) {
-                font-size: 8px;
+                font-size: 14px;
+                width: 250px;
             }
         }
 
         .p2 {
             font-size: 14px;
             font-family: 'Figtree';
-            width: 400px;
+            width: 170px;
             color: #f9f9f992;
 
             @media(max-width: 480px) {
-                font-size: 8px;
+                font-size: 14px;
             }
         }
 
@@ -548,9 +550,10 @@ main {
             font-size: 14px;
             font-family: 'Figtree';
             color: #f9f9f992;
+            width: 261px;
 
             @media(max-width: 480px) {
-                font-size: 8px;
+                font-size: 14px;
             }
         }
 
@@ -562,6 +565,22 @@ main {
                 width: 16px;
             }
 
+        }
+
+        .botao-principal {
+            background-color: transparent;
+            border: 0.5px solid #f9f9f992;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 8px;
+            color: rgba(255, 255, 255, 0.647);
+
+
+            &:hover {
+                background-color: #0a1a2785;
+                transition-duration: 0.5s;
+                border: #0a1a2785;
+            }
         }
     }
 }
